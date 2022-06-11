@@ -1,0 +1,161 @@
+
+
+
+:root {
+  --cor-fundo: rgb(7, 102, 39);
+  --cor-hover: rgb(118, 180, 145);
+  --cor-primaria: rgb(252, 249, 249);
+}
+
+.dp-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dp-menu ul {
+  background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+  display: inline;
+  position: relative;
+}
+
+.dp-menu ul li a {
+  color: var(--cor-primaria);
+  text-decoration: none;
+  display: inline-block;
+  padding: 25px;
+  transition: background .5s;
+}
+
+.dp-menu ul li a:hover {
+  background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+  display: none;
+  left: 0;
+  position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+  display: block;
+}
+
+.dp-menu ul ul {
+  width: 150px
+}
+
+.dp-menu ul ul li a {
+  display: block;
+}
+
+
+body{
+  text-align:center ;
+  background-color: rgb(90, 161, 138);
+
+}
+p{
+  font-size: 20px;
+}
+div{
+  font-size: 20px;
+}
+h1{
+    color: rgb(78, 4, 78);
+    text-align: center;
+}
+h2{
+  color: rgb(78, 4, 78);
+  text-align: center;
+  font-size: 30px;
+}
+h3{
+  color: rgb(78, 4, 78);
+}
+#iv{
+  color: rgb(78, 4, 78);
+}
+#ac{
+  color: aliceblue;
+}
+
+
+#esp{
+  left:140px auto;
+}
+#teste{
+  display: inline;
+  
+}
+#but{
+  background-color: honeydew;
+  color: rgb(26, 25, 25);
+}
+#h44{
+  color:  rgb(78, 4, 78);
+  
+}
+#pon{
+ display:block;
+ position: absolute;
+
+}
+#h11{
+  color: rgb(3, 3, 83);
+
+}
+.liii{
+  left: 90%;
+  padding: 0;
+}
+body {
+
+  padding: 0;
+
+  margin: 0;
+
+  background-color: #454d6b;
+
+}
+#hand{
+ color:  rgb(78, 4, 78);
+}
+
+
+.xx{
+  position: absolute; left: 97%;
+  top: 10%;
+  background-color: antiquewhite;
+  color: rgb(12, 12, 12);
+}
+.x2{
+  position: absolute; left: 97%;
+  top: 17%;
+  background-color: antiquewhite;
+  color: black;
+}
+#mar{
+  position: relative; left: 20px;
+  text-align: center;
+  padding: 0%;
+  
+}
+
+.box{
+  width: 900px;
+  position: relative; 
+  left: 12%;
+  transform: translate(20% , -1%);
+  text-align: justify;
+
+}
+.tra{
+  font-size: 40px;
+  color: rgb(16, 105, 77);
+  text-align: center;
+}
+
