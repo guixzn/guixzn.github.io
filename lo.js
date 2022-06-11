@@ -1,3 +1,3 @@
 function logar(){
-    location.href="index.html"
+    location.href="https://guixzn.github.io/index.html"
 }
